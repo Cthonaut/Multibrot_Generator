@@ -1,0 +1,3 @@
+/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles/Multibrot_Generator.dir
+/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles/edit_cache.dir
+/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles/rebuild_cache.dir
