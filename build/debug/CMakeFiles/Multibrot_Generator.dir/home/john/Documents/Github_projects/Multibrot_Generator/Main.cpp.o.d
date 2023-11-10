@@ -132,4 +132,32 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
  /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/GLFW/glfw3.h
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/GLFW/glfw3.h \
+ /usr/include/c++/13/math.h /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/13/bits/specfun.h \
+ /usr/include/c++/13/limits /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/tr1/special_function_util.h \
+ /usr/include/c++/13/tr1/bessel_function.tcc \
+ /usr/include/c++/13/tr1/beta_function.tcc \
+ /usr/include/c++/13/tr1/ell_integral.tcc \
+ /usr/include/c++/13/tr1/exp_integral.tcc \
+ /usr/include/c++/13/tr1/hypergeometric.tcc \
+ /usr/include/c++/13/tr1/legendre_function.tcc \
+ /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/13/tr1/poly_hermite.tcc \
+ /usr/include/c++/13/tr1/poly_laguerre.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VAO.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VBO.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/EBO.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/ShaderClass.h \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc

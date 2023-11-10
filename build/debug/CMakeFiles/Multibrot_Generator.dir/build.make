@@ -69,19 +69,19 @@ include CMakeFiles/Multibrot_Generator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Multibrot_Generator.dir/flags.make
 
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/main.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/main.cpp
 
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/main.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i
 
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/main.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s
 
 CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o: CMakeFiles/Multibrot_Generator.dir/flags.make
 CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o: /home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c
@@ -97,20 +97,84 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.s
 
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o: CMakeFiles/Multibrot_Generator.dir/flags.make
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o: /home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o: CMakeFiles/Multibrot_Generator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o -MF CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o.d -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o -c /home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp > CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i
+
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp -o CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s
+
 # Object files for target Multibrot_Generator
 Multibrot_Generator_OBJECTS = \
-"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o" \
-"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o"
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o" \
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o" \
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o" \
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o" \
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o" \
+"CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o"
 
 # External object files for target Multibrot_Generator
 Multibrot_Generator_EXTERNAL_OBJECTS =
 
-Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o
+Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o
 Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o
+Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o
+Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o
+Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o
+Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o
 Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/build.make
 Multibrot_Generator: /usr/lib64/libX11.so
 Multibrot_Generator: CMakeFiles/Multibrot_Generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Multibrot_Generator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/john/Documents/Github_projects/Multibrot_Generator/build/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Multibrot_Generator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multibrot_Generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

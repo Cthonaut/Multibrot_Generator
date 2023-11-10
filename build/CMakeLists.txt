@@ -4,15 +4,16 @@ cmake_minimum_required(VERSION 3.10)
 project(Multibrot_Generator VERSION 3.5)
 
 find_package(X11 REQUIRED)
-file(GLOB_RECURSE SRC_FILES ${CMAKE_SOURCE_DIR}/../src/*.c)
+file(GLOB_RECURSE SRC_FILES_C ${CMAKE_SOURCE_DIR}/../src/*.c)
+file(GLOB_RECURSE SRC_FILES_CPP ${CMAKE_SOURCE_DIR}/../src/*.cpp)
 #file(GLOB_RECURSE SRC_IMGUI_FILES ${CMAKE_SOURCE_DIR}/src/imgui/*.cpp)
 # φτιάνω το executable
-add_executable(Multibrot_Generator ${CMAKE_SOURCE_DIR}/../Main.cpp ${SRC_FILES} ${SRC_IMGUI_FILES})
+add_executable(Multibrot_Generator ${CMAKE_SOURCE_DIR}/../main.cpp ${SRC_FILES_C} ${SRC_FILES_CPP})
 
 # προσθέτω ότι directories χρειάζομαι
 target_include_directories(Multibrot_Generator
     PUBLIC
-    ${CMAKE_SOURCE_DIR}/../include/
+    ${CMAKE_SOURCE_DIR}/../include
 )
 
 

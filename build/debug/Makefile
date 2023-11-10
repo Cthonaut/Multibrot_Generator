@@ -129,29 +129,125 @@ Multibrot_Generator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/build
 .PHONY : Multibrot_Generator/fast
 
-home/john/Documents/Github_projects/Multibrot_Generator/Main.o: home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.o
+home/john/Documents/Github_projects/Multibrot_Generator/main.o: home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.o
 
 # target to build an object file
-home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.o
+home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o
 
-home/john/Documents/Github_projects/Multibrot_Generator/Main.i: home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.i
+home/john/Documents/Github_projects/Multibrot_Generator/main.i: home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.i
 
 # target to preprocess a source file
-home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.i
+home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.i
 
-home/john/Documents/Github_projects/Multibrot_Generator/Main.s: home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.s
+home/john/Documents/Github_projects/Multibrot_Generator/main.s: home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.s
 
 # target to generate assembly for a file
-home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s
-.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/Main.cpp.s
+home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.s
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.o: home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.o
+
+# target to build an object file
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.o
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.i: home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.i
+
+# target to preprocess a source file
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.i
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.s: home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.s
+
+# target to generate assembly for a file
+home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o: home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o
+
+# target to build an object file
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.i: home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.i
+
+# target to preprocess a source file
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.i
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.s: home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.s
+
+# target to generate assembly for a file
+home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.s
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.o: home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.o
+
+# target to build an object file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.o
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.i: home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.i
+
+# target to preprocess a source file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.i
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.s: home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.s
+
+# target to generate assembly for a file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.cpp.s
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.o: home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.o
+
+# target to build an object file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.o
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.i: home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.i
+
+# target to preprocess a source file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.i
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.s: home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.s
+
+# target to generate assembly for a file
+home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.cpp.s
 
 home/john/Documents/Github_projects/Multibrot_Generator/src/glad.o: home/john/Documents/Github_projects/Multibrot_Generator/src/glad.c.o
 .PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/glad.o
@@ -186,9 +282,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Multibrot_Generator"
-	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/Main.o"
-	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/Main.i"
-	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/Main.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/main.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/main.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/main.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VAO.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/VBO.s"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/glad.o"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/glad.i"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/glad.s"
