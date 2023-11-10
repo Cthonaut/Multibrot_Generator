@@ -10,6 +10,7 @@
 #include "ShaderClass.h"
 
 int resolution[2] = {1920,1080};
+uint frame_rate = 60;
 
 GLfloat vertices[] = 
 {
@@ -30,11 +31,45 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 	glViewport(0, 0, width, height);
 }
 
-void processInput(GLFWwindow* window)
+void processInput(GLFWwindow* window, float* zoom, float* pos, double dt)
 {
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+	if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 	{
 		glfwSetWindowShouldClose(window, true);
+	}
+	
+	if(glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS)
+	{
+		*zoom += *zoom*dt;
+	}
+	else if(glfwGetKey(window, GLFW_KEY_N) == GLFW_PRESS)
+	{
+		if(*zoom > 0.45f)
+		{
+			*zoom -= *zoom*dt;
+		}
+		else
+		{
+			*zoom = 0.43f;
+		}
+	}
+
+	if(glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+	{
+		pos[1] += dt/(*zoom);
+	}
+	else if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+	{
+		pos[1] -= dt/(*zoom);
+	}
+
+	if(glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+	{
+		pos[0] += dt/(*zoom);
+	}
+	else if(glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+	{
+		pos[0] -= dt/(*zoom);
 	}
 }
 
@@ -78,10 +113,17 @@ int main()
 	EBO1.Unbind();
 
 	GLuint resID = glGetUniformLocation(shaderProgram.ID, "resolution");
+	GLuint posID = glGetUniformLocation(shaderProgram.ID, "pos");
+	GLuint zoomID = glGetUniformLocation(shaderProgram.ID, "zoom");
+
+	//Main varialbes
+	float position[2] = {0,0};
+	float zoom = 1;
 
 	//Main loop
 	while (!glfwWindowShouldClose(window))
 	{
+		double time = glfwGetTime();
 		glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
 		glClear(GL_COLOR_BUFFER_BIT);
 		
@@ -90,9 +132,14 @@ int main()
 		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
 
 		glUniform2f(resID, resolution[0], resolution[1]);
+		glUniform2f(posID, position[0], position[1]);
+		glUniform1f(zoomID, zoom);
 
 		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
-		processInput(window);
+
+		double delta_time = glfwGetTime() - time;
+		while(1/delta_time > frame_rate){delta_time = glfwGetTime() - time;}
+		processInput(window, &zoom, position, delta_time);
 		glfwPollEvents();
 		glfwSwapBuffers(window);
 	}

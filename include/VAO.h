@@ -1,4 +1,5 @@
-#pragma once
+#ifndef VAO_H_
+#define VAO_H_
 
 #include <glad/glad.h>
 
@@ -16,4 +17,6 @@ class VAO
 		void Unbind();
 		void Delete();
 };
+
+#endif
 

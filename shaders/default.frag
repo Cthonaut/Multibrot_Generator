@@ -1,7 +1,11 @@
 #version 330 core
+#extension GL_ARB_shading_language_420pack : enable
+
 out vec4 FragColor;
 in vec4 vertexColor;
 uniform vec2 resolution;
+uniform vec2 pos;
+uniform float zoom;
 
 vec2 cpow(vec2 z, vec2 p)
 {
@@ -19,28 +23,46 @@ vec2 cpow(vec2 z, vec2 p)
     return result;
 }
 
-float computeInterations_functionset(vec2 uv, float max_iter)
+vec3 computeInterations_functionset(vec2 uv, float max_iter,vec3 cols[3])
 {
     vec2 c = uv;
     vec2 z = vec2(0.0);
     float iter = 0;
-    for(int i; i < max_iter; i++)
+    for(int i = 0; i < max_iter; i++)
     {
         z = cpow(z,vec2(2,0)) + c;
         if(dot(z,z) > 4.0)
         {
-            return iter/max_iter;
+            float return_const = iter/max_iter;
+            vec3 return_value = vec3(cols[0]);
+            for(int j = 0; j < 3; j++)
+            {
+                float temp = 1;
+                for(int k = 0; k < 3 - j; k++)
+                {
+                    temp *= return_const;
+                }
+                return_value += temp*cols[j];
+            }
+            return return_value;
         }
         ++iter;
     }
-    return 0.0f;// το εσωτερικό του συνόλου
+    return vec3(0);
 }
 
 void main()
 {
-    vec2 uv = (gl_FragCoord.xy - 0.5 * resolution.xy) / (resolution.y);
+    vec2 uv = (gl_FragCoord.xy - 0.5 * resolution.xy) / (resolution.y*zoom);
+    uv = vec2(uv.x + pos.x,uv.y + pos.y);
+
+    vec3 color1 = vec3(0.0,0.0,0.25);
+    vec3 color2 = vec3(12.5,12.5,0.0);
+    vec3 color3 = vec3(12.5,0.0,0.0);
+
+    vec3 colors[3] = {color1,color2,color3};
 
     vec3 col = vec3(0.0);
-    col += computeInterations_functionset(uv,50);
+    col = computeInterations_functionset(uv,500,colors);
     FragColor = vec4(col, 1.0);
 }

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SHADERCLASS_H_
+#define SHADERCLASS_H_
 
 #include<glad/glad.h>
 #include<string>
@@ -19,4 +20,6 @@ public:
 	void Activate();
 	void Delete();
 };
+
+#endif
 

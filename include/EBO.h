@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EBO_H_
+#define EBO_H_
 
 #include <glad/glad.h>
 
@@ -14,4 +15,6 @@ public:
 	void Unbind();
 	void Delete();
 };
+
+#endif
 

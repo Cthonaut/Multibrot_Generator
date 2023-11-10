@@ -154,6 +154,7 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
  /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VAO.h \
  /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VBO.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VBO.h \
  /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/EBO.h \
  /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/ShaderClass.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
