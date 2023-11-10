@@ -13,10 +13,10 @@ int resolution[2] = {1920,1080};
 
 GLfloat vertices[] = 
 {
-	 0.5f, 0.5f,
-	-0.5f, 0.5f,
-	-0.5f,-0.5f,
-	 0.5f,-0.5f
+	 1.0f, 1.0f,
+	-1.0f, 1.0f,
+	-1.0f,-1.0f,
+	 1.0f,-1.0f
 };
 
 GLuint indices[] = 
@@ -28,6 +28,14 @@ GLuint indices[] =
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
 	glViewport(0, 0, width, height);
+}
+
+void processInput(GLFWwindow* window)
+{
+	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
+	{
+		glfwSetWindowShouldClose(window, true);
+	}
 }
 
 int main()
@@ -69,6 +77,8 @@ int main()
 	VBO1.Unbind();
 	EBO1.Unbind();
 
+	GLuint resID = glGetUniformLocation(shaderProgram.ID, "resolution");
+
 	//Main loop
 	while (!glfwWindowShouldClose(window))
 	{
@@ -79,8 +89,10 @@ int main()
 		VAO1.Bind();
 		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
 
-		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
+		glUniform2f(resID, resolution[0], resolution[1]);
 
+		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
+		processInput(window);
 		glfwPollEvents();
 		glfwSwapBuffers(window);
 	}

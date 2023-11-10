@@ -2,7 +2,9 @@
 
 std::string get_file_contents(const char* filename)
 {
-	std::ifstream in(filename, std::ios::binary);
+    std::string shadersPath = "./shaders/";
+    std::string fullPath = shadersPath + filename;
+	std::ifstream in(fullPath, std::ios::binary);
 	if (in)
 	{
 		std::string contents;
