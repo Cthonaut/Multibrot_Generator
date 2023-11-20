@@ -177,6 +177,30 @@ home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
 .PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.cpp.s
 
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.o: home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.o
+
+# target to build an object file
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.o
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.o
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.i: home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.i
+
+# target to preprocess a source file
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.i
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.i
+
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.s: home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.s
+
+# target to generate assembly for a file
+home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Multibrot_Generator.dir/build.make CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.s
+.PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.s
+
 home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o: home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.cpp.o
 .PHONY : home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.o"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.i"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/EBO.s"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.o"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.i"
+	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.s"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.o"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.i"
 	@echo "... home/john/Documents/Github_projects/Multibrot_Generator/src/ShaderClass.s"

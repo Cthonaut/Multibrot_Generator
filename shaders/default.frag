@@ -1,10 +1,11 @@
-#version 330 core
+#version 460 core
 #extension GL_ARB_shading_language_420pack : enable
 
 out vec4 FragColor;
 in vec4 vertexColor;
 uniform vec2 resolution;
 uniform vec2 pos;
+uniform vec2 power;
 uniform float zoom;
 
 vec2 cpow(vec2 z, vec2 p)
@@ -30,7 +31,7 @@ vec3 computeInterations_functionset(vec2 uv, float max_iter,vec3 cols[3])
     float iter = 0;
     for(int i = 0; i < max_iter; i++)
     {
-        z = cpow(z,vec2(2,0)) + c;
+        z = cpow(z,power) + c;
         if(dot(z,z) > 4.0)
         {
             float return_const = iter/max_iter;

@@ -1,26 +1,31 @@
-CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/main.cpp.o: \
- /home/john/Documents/Github_projects/Multibrot_Generator/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
- /usr/include/bits/wordsize.h \
- /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h \
+CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp.o: \
+ /home/john/Documents/Github_projects/Multibrot_Generator/src/InputHandeler.cpp \
+ /usr/include/stdc-predef.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/InputHandeler.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/GLFW/glfw3.h \
+ /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
- /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
- /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/GL/gl.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/13/x86_64-redhat-linux/bits/os_defines.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/cpu_defines.h \
  /usr/include/c++/13/pstl/pstl_config.h /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
  /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
- /usr/include/bits/libc-header-start.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h \
- /usr/lib/gcc/x86_64-redhat-linux/13/include/stddef.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-redhat-linux/13/include/stdarg.h \
- /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
- /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h /usr/include/c++/13/exception \
@@ -37,10 +42,9 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
  /usr/include/c++/13/x86_64-redhat-linux/bits/c++locale.h \
  /usr/include/c++/13/clocale /usr/include/locale.h \
  /usr/include/bits/locale.h /usr/include/c++/13/cctype \
- /usr/include/ctype.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
- /usr/include/bits/endian.h /usr/include/bits/endianness.h \
- /usr/include/c++/13/bits/ios_base.h /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/ctype.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/ext/atomicity.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/gthr.h \
  /usr/include/c++/13/x86_64-redhat-linux/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -95,13 +99,13 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
  /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
- /usr/include/bits/stdint-intn.h /usr/include/endian.h \
- /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
- /usr/include/sys/select.h /usr/include/bits/select.h \
- /usr/include/bits/types/sigset_t.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-float.h /usr/include/c++/13/bits/std_abs.h \
- /usr/include/c++/13/cstdio /usr/include/stdio.h \
- /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cstdio \
+ /usr/include/stdio.h /usr/include/bits/types/__fpos_t.h \
+ /usr/include/bits/types/__fpos64_t.h \
  /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/c++/13/cerrno \
@@ -127,39 +131,4 @@ CMakeFiles/Multibrot_Generator.dir/home/john/Documents/Github_projects/Multibrot
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/glad/glad.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/KHR/khrplatform.h \
- /usr/lib/gcc/x86_64-redhat-linux/13/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/GLFW/glfw3.h \
- /usr/include/c++/13/math.h /usr/include/c++/13/cmath /usr/include/math.h \
- /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
- /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
- /usr/include/bits/fp-fast.h \
- /usr/include/bits/mathcalls-helper-functions.h \
- /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
- /usr/include/bits/iscanonical.h /usr/include/c++/13/bits/specfun.h \
- /usr/include/c++/13/limits /usr/include/c++/13/tr1/gamma.tcc \
- /usr/include/c++/13/tr1/special_function_util.h \
- /usr/include/c++/13/tr1/bessel_function.tcc \
- /usr/include/c++/13/tr1/beta_function.tcc \
- /usr/include/c++/13/tr1/ell_integral.tcc \
- /usr/include/c++/13/tr1/exp_integral.tcc \
- /usr/include/c++/13/tr1/hypergeometric.tcc \
- /usr/include/c++/13/tr1/legendre_function.tcc \
- /usr/include/c++/13/tr1/modified_bessel_func.tcc \
- /usr/include/c++/13/tr1/poly_hermite.tcc \
- /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VAO.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VBO.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/VBO.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/EBO.h \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/ShaderClass.h \
- /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
- /usr/include/c++/13/x86_64-redhat-linux/bits/basic_file.h \
- /usr/include/c++/13/x86_64-redhat-linux/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc \
- /home/john/Documents/Github_projects/Multibrot_Generator/build/../include/InputHandeler.h
+ /usr/include/c++/13/bits/istream.tcc

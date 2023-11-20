@@ -8,6 +8,7 @@
 #include "VBO.h"
 #include "EBO.h"
 #include "ShaderClass.h"
+#include "InputHandeler.h"
 
 int resolution[2] = {1920,1080};
 uint frame_rate = 60;
@@ -29,48 +30,6 @@ GLuint indices[] =
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
 	glViewport(0, 0, width, height);
-}
-
-void processInput(GLFWwindow* window, float* zoom, float* pos, double dt)
-{
-	if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-	{
-		glfwSetWindowShouldClose(window, true);
-	}
-	
-	if(glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS)
-	{
-		*zoom += *zoom*dt;
-	}
-	else if(glfwGetKey(window, GLFW_KEY_N) == GLFW_PRESS)
-	{
-		if(*zoom > 0.45f)
-		{
-			*zoom -= *zoom*dt;
-		}
-		else
-		{
-			*zoom = 0.43f;
-		}
-	}
-
-	if(glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-	{
-		pos[1] += dt/(*zoom);
-	}
-	else if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-	{
-		pos[1] -= dt/(*zoom);
-	}
-
-	if(glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-	{
-		pos[0] += dt/(*zoom);
-	}
-	else if(glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-	{
-		pos[0] -= dt/(*zoom);
-	}
 }
 
 int main()
@@ -114,11 +73,13 @@ int main()
 
 	GLuint resID = glGetUniformLocation(shaderProgram.ID, "resolution");
 	GLuint posID = glGetUniformLocation(shaderProgram.ID, "pos");
+	GLuint powID = glGetUniformLocation(shaderProgram.ID, "power");
 	GLuint zoomID = glGetUniformLocation(shaderProgram.ID, "zoom");
 
+	InputHandeler Input(window);
+
 	//Main varialbes
-	float position[2] = {0,0};
-	float zoom = 1;
+	float power[2] = {2,0};
 
 	//Main loop
 	while (!glfwWindowShouldClose(window))
@@ -132,14 +93,18 @@ int main()
 		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
 
 		glUniform2f(resID, resolution[0], resolution[1]);
-		glUniform2f(posID, position[0], position[1]);
-		glUniform1f(zoomID, zoom);
+		glUniform2f(posID, Input.pos[0], Input.pos[1]);
+		glUniform2f(powID, power[0], power[1]);
+		glUniform1f(zoomID, Input.zoom);
 
 		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
 
 		double delta_time = glfwGetTime() - time;
 		while(1/delta_time > frame_rate){delta_time = glfwGetTime() - time;}
-		processInput(window, &zoom, position, delta_time);
+
+		//Input Handeling
+		Input.InputHaldeling(delta_time, resolution[0], resolution[1]);
+
 		glfwPollEvents();
 		glfwSwapBuffers(window);
 	}
