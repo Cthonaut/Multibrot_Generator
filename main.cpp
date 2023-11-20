@@ -3,6 +3,7 @@
 #include<GLFW/glfw3.h>
 
 #include <math.h>
+#include <vector>
 
 #include "VAO.h"
 #include "VBO.h"
@@ -10,10 +11,10 @@
 #include "ShaderClass.h"
 #include "InputHandeler.h"
 
-int resolution[2] = {1920,1080};
-uint frame_rate = 60;
+int resolution[2]{1920,1080};
+uint frame_rate{60};
 
-GLfloat vertices[] = 
+std::vector<GLfloat> vertices =
 {
 	 1.0f, 1.0f,
 	-1.0f, 1.0f,
@@ -21,7 +22,7 @@ GLfloat vertices[] =
 	 1.0f,-1.0f
 };
 
-GLuint indices[] = 
+std::vector<GLuint> indices =
 {
 	0, 1, 2,
 	0, 2, 3
@@ -34,7 +35,6 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 int main()
 {
-
 	glfwInit();// Initialize GLFW
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -64,8 +64,8 @@ int main()
 	//VAO EBO AND EBO
 	VAO VAO1;
 	VAO1.Bind();
-	VBO VBO1(vertices, sizeof(vertices));
-	EBO EBO1(indices, sizeof(indices));
+	VBO VBO1(vertices);
+	EBO EBO1(indices);
 	VAO1.LinkVBO(VBO1, 0, 2, GL_FLOAT, 2 * sizeof(float), (void*)0);
 	VAO1.Unbind();
 	VBO1.Unbind();
@@ -79,7 +79,7 @@ int main()
 	InputHandeler Input(window);
 
 	//Main varialbes
-	float power[2] = {2,0};
+	float power[2]{3,0};
 
 	//Main loop
 	while (!glfwWindowShouldClose(window))
@@ -90,14 +90,14 @@ int main()
 		
 		shaderProgram.Activate();
 		VAO1.Bind();
-		glDrawElements(GL_TRIANGLES, 9, GL_UNSIGNED_INT, 0);
+		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
 
 		glUniform2f(resID, resolution[0], resolution[1]);
 		glUniform2f(posID, Input.pos[0], Input.pos[1]);
 		glUniform2f(powID, power[0], power[1]);
 		glUniform1f(zoomID, Input.zoom);
 
-		glfwGetFramebufferSize(window, &resolution[0], &resolution[1]);
+		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
 		double delta_time = glfwGetTime() - time;
 		while(1/delta_time > frame_rate){delta_time = glfwGetTime() - time;}

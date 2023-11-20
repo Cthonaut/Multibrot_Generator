@@ -2,13 +2,14 @@
 #define VBO_H_
 
 #include <glad/glad.h>
+#include <vector>
 
 class VBO
 {
 	GLuint ID;
 	public:
 
-		VBO(GLfloat* vertices, GLsizeiptr size);
+		VBO(std::vector<GLfloat>& vertices);
 
 		void Bind();
 		void Unbind();
